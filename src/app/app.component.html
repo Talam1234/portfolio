@@ -3,9 +3,9 @@
     <ion-menu contentId="menu-content">
       <ion-header>
         <ion-toolbar>
-          <ion-row class="user-details-wrapper">
-            <ion-col>
-
+          <ion-row class="user-details-wrapper" >
+            <ion-col style="display: flex;align-items: center;justify-content: center;padding: 50px 0px;">
+              <img style="height: 200px;border-radius: 10px; " [src]="'../assets/Profile_image.png'" />
 
 
             </ion-col>
@@ -16,20 +16,21 @@
       </ion-header>
       <ion-content>
         <ion-list style="width:229px;margin: auto;max-height: 80%;">
-          <ion-item>
-
-            <ion-label> Dashboard </ion-label>
+          <ion-item routerLink="/home">
+            <ion-icon slot="start" name="home" color="dark"></ion-icon>
+            <ion-label> Home </ion-label>
           </ion-item>
-          <ion-list>
+          <ion-item routerLink="/about">
+            <ion-icon name="information-circle-outline" slot="start" color="dark"></ion-icon>
+            <ion-label>About</ion-label>
+          </ion-item>
 
-            <ion-item>
+          <ion-item routerLink="/contact">
+            <ion-icon slot="start" name="call" color="dark"></ion-icon>
+            <ion-label>Contact</ion-label>
+          </ion-item>
 
-              <ion-label>Company Setting</ion-label>
-              <ion-icon slot="end" name="chevron-forward-outline" color="dark"></ion-icon>
-            </ion-item>
-          </ion-list>
-
-          <ng-container>
+          <!-- <ng-container>
             <ng-container>
               <ion-item>
 
@@ -38,7 +39,7 @@
                 </ion-label>
               </ion-item>
             </ng-container>
-          </ng-container>
+          </ng-container> -->
 
         </ion-list>
         <ion-footer class="ion-no-border">
@@ -50,7 +51,7 @@
       </ion-content>
     </ion-menu>
     <!-- Main app content get's rendered in this router-outlet -->
-    <ion-router-outlet id="menu-content"></ion-router-outlet>
+    <ion-router-outlet id="menu-content" ></ion-router-outlet>
 
   </ion-split-pane>>
 </ion-app>

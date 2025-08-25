@@ -11,6 +11,10 @@ const routes: Routes = [
     loadChildren: () => import('./Page/Contact/contact.module').then( m => m.ContactModule)
   },
   {
+    path: 'about',
+    loadChildren: () => import('./Page/About/about.module').then( m => m.AboutModule)
+  },
+  {
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'

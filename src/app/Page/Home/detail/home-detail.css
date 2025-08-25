@@ -1,0 +1,45 @@
+ion-content {
+  --background: url('../../../../assets/Background_image.png') no-repeat center center / cover;
+}
+
+.home-content {
+  --background: linear-gradient(to right, #f8f9fa, #e9ecef); /* soft professional background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.intro-container {
+  padding: 20px;
+}
+
+.intro-name {
+  font-size: 3.5rem;   /* big bold name */
+  font-weight: 900;
+  color: #222;
+}
+
+.intro-role {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #555;
+  margin-top: 10px;
+}
+
+.intro-desc {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin: 20px 0;
+  color: rgb(5, 0, 0);
+}
+
+.experience-container {
+    padding: 20px;
+}
+
+.ex-name{
+    font-size: 2rem;   /* big bold name */
+  font-weight: 600;
+  color: #222;
+}

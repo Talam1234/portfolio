@@ -6,6 +6,6 @@ import { Component } from "@angular/core";
 })
 
 export class ContactPage {
-  constructor() { console.log('test')}
+  constructor() { console.log('test_contact')}
   
 }
