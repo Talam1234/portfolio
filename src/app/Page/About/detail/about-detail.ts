@@ -32,22 +32,22 @@ export class AboutPage {
   skill = [
     {
       title: 'MySql',
-      logo: '../../../../assets/icon/mysql-database.png'
+      image: '../../../../assets/icon/mysql-database.png'
     },{
       title: 'Javascript',
       image: '../../../../assets/icon/js.png'
     },{
       title: 'React / React-native',
-      logo: '../../../../assets/icon/physics.png'
+      image: '../../../../assets/icon/physics.png'
     },{
       title: 'Angular',
-      logo: '../../../../assets/icon/programing.png'
+      image: '../../../../assets/icon/programing.png'
     },{
       title: 'Dart',
-      logo: '../../../../assets/icon/target.png'
+      image: '../../../../assets/icon/target.png'
     },{
       title: 'Typescript',
-      logo: '../../../../assets/icon/typescript.png'
+      image: '../../../../assets/icon/typescript.png'
     }
   ]
   
