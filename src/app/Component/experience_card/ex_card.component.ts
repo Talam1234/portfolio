@@ -10,7 +10,7 @@ export class ExCardComponent implements OnInit {
   @Input() title!: string;
   @Input() company!: string;
   @Input() period!: string;
-  @Input() description!: string;;
+  @Input() description!: string;
 
 //   constructor(
 //     private popoverController: PopoverController

@@ -3,11 +3,13 @@ import { NgModule } from "@angular/core";
 import { ExCardComponent } from "./experience_card/ex_card.component";
 import { CommonModule } from "@angular/common";
 import { IonicModule } from "@ionic/angular";
+import { SkCardComponent } from "./Skill_card/sk.component";
 
 @NgModule({
     declarations: [
         // IeHeaderComponent,
-        ExCardComponent
+        ExCardComponent,
+        SkCardComponent
     ],
     imports: [
         CommonModule,
@@ -15,7 +17,8 @@ import { IonicModule } from "@ionic/angular";
     ],
     exports: [
         // IeHeaderComponent,
-        ExCardComponent
+        ExCardComponent,
+        SkCardComponent
     ],
 })
 

@@ -1,3 +1,23 @@
 ion-content {
   --background: url('../../../../assets/Background_image.png') no-repeat center center / cover;
 }
+
+.experience-container {
+    padding: 20px;
+}
+
+.ex-name{
+    font-size: 2rem;   /* big bold name */
+  font-weight: 600;
+  color: #222;
+}
+
+.skill{
+  padding: 20px;
+}
+
+.skill-name{
+      font-size: 2rem;   /* big bold name */
+  font-weight: 600;
+  color: #222;
+}
